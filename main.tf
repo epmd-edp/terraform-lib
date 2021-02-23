@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "tf-test-bucket"
+  bucket = "tf-test-mm-pipe-bucket"
   acl    = "private"
 
   tags = {
